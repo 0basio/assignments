@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ikechi O. Onuoha Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">IKECHI ONUOHA PORTFOLIO</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT ME</a>
+        <a href="#projects" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">PROJECTS</a>
+        <a href="#services" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">SERVICES</a>
+        <a href="contactpage.html" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.facebook.com/bossy.dynasty" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/obasio" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://twitter.com/obasio" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/ikechi-obasi-onuoha-722a0133" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CALL ME BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="tel://+2348052777157" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" phone="+2348052777157">
+            <i data-feather="phone" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left phone-text">CALL ME</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">IKECHI ONUOHA PORTFOLIO</a>
+          <a href="contactpage.html" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#services" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">SERVICES</a>
+          <a href="#projects" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">PROJECTS</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT ME</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
+            <h1>Ikechi Onuoha (40)</h2>
+            <h2>Frontend Web Developer/ Freelancer</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT ME</h2>
+            <p class="w3-margin-top-2"> 
+                My name is Ikechi Onuoha. I am a web designer and Front-end developer based in Nigeria. I design, profer solutions and ideas for your brands. Am a resourceful graduate of Abia State University, Uturu, Abia State. Full of enthusiasm, and eagerness to face new challenges; Communicates fluently in English and Igbo languages respectively. Willing to make a positive impact in any organization I find myself.
+            </p>
+            
+          </div>
+          <!--PROJECTS-->
+          <div id="projects" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">PROJECTS</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--PROJECT HISTORY SECTION-->
+              <h3 class="w3-border-amber">MY PROJECT TIMELINE</h3>
+              <div class="">
+                <h4>Scholarship at Zuri in partnership Ingress for Good</h4>
+                <p>September 2022 - Present</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Created a single HTML page that has my name, a sentence about myself and my goals for this internship using Codepen.</li>
+                  <li>Built a tribute page with HTML using Codepen.</li>
+                  <li>Prepared a HTML table that has scores and subjects for each student for SS2 class Teacher using Codepen.</li>
+                  <li>Created a registration form in PHP.</li>
+                  <li>Created Registration page, login page and success register page in HTML and CSS using Replit.</li>
+                  <li>Built a simple HTML & CSS website using Replit.</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Freelancer/ Creative Manager at the Code234</h4>
+                <p>January 2017 - October 2022 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Ensured that audience growth rate is in increased through social networks</li>
+                  <li>Managed social media campaigns for various social media platforms to align with marketing strategies</li>
+                  <li>Monitored and provided feedback on engagement/conversation via social media channels to leadership</li>
+                  <li>Organized and managed community events to boost brand awareness</li>
+                  <li>Monitored, tracked and reported on feedback and online reviews</li>
+                  <li>Provided engaging text, image and video content for all social media and professional accounts</li>
+                  <li>Website design and development using Wordpress</li>
+                  <li>Website Maintenance</li>
+                </ul>
+              </div>
+            </div>
+
+            <!--SERVICES SECTION-->
+          <div id="services" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">SERVICES</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Web Design</p>
+              <p>Copywriter</p>
+              <p>E-commerece</p>
+              <p>Social Media Managment</p>
+              <p>Digital Marketing</p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-20-percent w3-cursive">
+                <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY SKILLS</h3>
+              <!--SOFT SKILLS-->
+              <h4>Soft skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>I have excelent communication skill and confidence in front of an audience</li>
+                <li>I have a talent for investigating and researching different processes to offer different improvements and solution for the benefit of the organization </li>
+                <li>Provided engaging text, image and video content for all social media and professional accounts</li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I have a great experience with MS Office tools</li>
+                  <li>I am proficient in technical writing</li>
+                  <li>Provided engaging text, image and video content for all social media and professional accounts</li>
+                </ul>
+                <!--DESIGN SKILLS-->
+              <h4>Design skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>Print Design</li>
+              </ul>
+              <!--CODING SKILLS-->
+              <h4>Coding skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>jQuery</li>
+                  <li>Wordpress</li>
+                  <li>PHP</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-20-percent w3-cursive">
+                <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I love mountain hiking and cycling in my free time</li>
+                  <li>I like to play board games with other people</li>
+                  <li>I love to surf the web for knowlegde</li>
+                </ul>
+            </div>
+
+            <!--PRIORTIES SECTION-->
+            <div class="w3-container w3-margin-top-20-percent w3-cursive">
+                <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY PRIORITIES</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>To complete my trianing on Full Stack Frontend learning program.</li>
+                  <li>To be among the top web developers.</li>
+                  <li>To get a dream job in tech.</li>
+                </ul>
+            </div>
+
+          
+          </div>
+
+        <!--FOOTER-->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2022 - Ikechi Onuoha</p>
+           
+          <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
